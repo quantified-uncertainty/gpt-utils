@@ -32,6 +32,8 @@ Then have a look at `reword-markdown-text/reword-md.sh` and `oracle/deploy-oracl
 
 ## Usage
 
+*Note: Currently, the first markdown line is assumed to contain the title, and is ignored*
+
 For rewording a file:
 
 ```
@@ -46,6 +48,10 @@ cd oracle
 deploy-oracle.sh
 ```
 
+etc.
+
 You may also want to read the files in the utility you are using.
 
+## To do
 
+- [ ] Consolidate all API calls and then import that, so that the only thing that changes is the prompt.
