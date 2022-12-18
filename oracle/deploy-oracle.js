@@ -38,7 +38,7 @@ ${question} [Yes/No]:`;
 
 let queryOracle = async (question) => {
   let response = await fetch(
-    "https://api.openai.com/v1/engines/text-davinci-002/completions",
+    "https://api.openai.com/v1/engines/text-davinci-003/completions",
     {
       method: "POST",
       headers: {
