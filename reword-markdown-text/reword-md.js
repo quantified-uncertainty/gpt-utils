@@ -4,7 +4,7 @@ import { config } from "https://deno.land/std/dotenv/mod.ts";
 // CONFIG
 const config_location = Deno.args[1]
 const config_data = await config(config_location);
-const OPEN_AI_BEARER = configData["OPEN_AI_BEARER"];
+const OPEN_AI_BEARER = config_data["OPEN_AI_BEARER"];
 
 // Do it for a paragraph
 

@@ -12,8 +12,8 @@
 ## echo "> Oracle now online"
 
 ## Run the js
-deno run --allow-net deploy-oracle.js "$OPEN_AI_ENV_LOCATION"
-sh deploy-oracle.sh ## run on repeat
+deno run --allow-net --allow-env --allow-read deploy-oracle.js "$OPEN_AI_ENV_LOCATION"
+# sh deploy-oracle.sh ## run on repeat
 ## echo "> Shredding memory..."
 ## sleep 0.1
 ## echo "> Redeployment now secure"
